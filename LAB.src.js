@@ -1,4 +1,5 @@
 /*! LAB.js (LABjs :: Loading And Blocking JavaScript)
+    [Error Handling Fork https://github.com/jasonhinkle/LABjs-eh]
     v2.0.3 (c) Kyle Simpson
     MIT License
 */
