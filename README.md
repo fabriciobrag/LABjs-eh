@@ -1,4 +1,15 @@
-LABjs (Loading And Blocking JavaScript)
+LABjs-eh (Loading And Blocking JavaScript w/ Error Handling)
+=======================================
+
+This is a fork of LABjs with the addition of an error handling option.  The production build of LABjs handles errors in any loaded script by silently terminating.  This fork allows you to handle those errors instead of ignoring them.
+
+Usage:
+
+    $LAB.setGlobalDefaults({'ErrorHandler': function(err){
+        // handle error however you wish for example:
+        throw err;
+    }});
+
 =======================================
 
 LABjs is a dynamic script loader intended to replace the use of the ugly, non-performant &lt;script> tag with a flexible and performance-optimized alternative API.
