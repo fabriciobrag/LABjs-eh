@@ -1,7 +1,7 @@
 LABjs-eh (Loading And Blocking JavaScript w/ Error Handling)
 =======================================
 
-~~ PLEASE NOTE!  I HAVE ONLY UPDATED "LAB.src.js" YOU WILL NEED TO BUILD YOUR OWN MIN VERSION ~~
+~~ PLEASE NOTE!  I HAVE NOT UPDATED THE DEBUG VERSION OF LABjs.  ~~
 
 This is a fork of LABjs with the addition of an error handling option.  The production build of LABjs handles errors in any loaded script by silently terminating.  This fork allows you to handle those errors instead of ignoring them.
 
