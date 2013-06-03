@@ -12,6 +12,10 @@ Usage:
         throw err;
     }});
 
+Note that I don't recommend you use this to attempt to recover and handle loading errors at runtime.  Rather, it's useful for development and debugging so that error messages are not supressed.
+
+One common wish is to re-try loading a script that failed to load, possibly from an alternate location (backup CDN or whatever).  The original library author warns against this because it's unpredictable on different browsers.  I don't recommend it either.  The point of my error handler is to allow your app to crash more gracefully - not to recover.
+
 Original LABjs README:
 =======================================
 
